@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -23,4 +24,21 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;  
+}
+
+.plants .info {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
 }
